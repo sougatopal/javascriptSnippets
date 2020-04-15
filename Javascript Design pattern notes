@@ -1,0 +1,19 @@
+there are three types of pattern 
+1>creational pattern 
+2>behavioral pattern
+3>structural design pattern
+
+1>creational design pattern
+
+A> Constructor design pattern
+B> Factory design pattern
+C>Prototype deign pattern
+D> Singleton
+
+2> Structural design pattern
+a>proxy design  kind of cache pattern
+b> Adapter pattern warpper old feature to new feature
+c>composite pattern  consist of number of interface method which may or may not get overide at child class
+d>decorator pattern wrapper the object into more decoartive / extra feature
+e>Facade pattern  all the complexities are hidden by simple API which is exposesd
+f> Flyweight pattern class and anither consisting of collection of first class
