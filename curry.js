@@ -24,3 +24,15 @@ c1(1,2,3) //6
 
 c1(1)(2)(3)  //6
 
+
+// sum(1)(2)(3) ....n times should return sum of n number
+function sum(args){
+	let rs = args;
+	function result(ag){
+		rs = rs+ ag;
+		return result
+	}
+	result.toString=()=>{return rs};
+	return result
+}
+
