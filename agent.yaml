@@ -1,0 +1,13 @@
+name: ADA
+id: ada
+version: 0.1.0
+entrypoint: "./ada-tool.js"
+description: Copilot agent that scans JSX/TSX files for accessibility (ADA) issues.
+tools:
+  - id: ada-checker
+    name: JSX ADA Scanner
+    description: Scans JSX code using eslint-plugin-jsx-a11y for accessibility issues.
+    command: "node ada-tool.js ${copilot.workspace.file}"
+    context:
+      include: ["*.jsx", "*.tsx"]
+      required: true
