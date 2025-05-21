@@ -1,0 +1,25 @@
+{
+  "name": "ada-copilot-agent",
+  "version": "1.0.0",
+  "description": "A Copilot agent that scans JSX/TSX files for ADA accessibility issues using ESLint.",
+  "main": "ada-tool.js",
+  "scripts": {
+    "start": "node ada-tool.js"
+  },
+  "keywords": [
+    "eslint",
+    "accessibility",
+    "jsx",
+    "tsx",
+    "copilot",
+    "agent",
+    "jsx-a11y"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "@babel/eslint-parser": "^7.21.3"
+  }
+}
